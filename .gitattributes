@@ -130,6 +130,10 @@ Procfile text
 .gitconfig text
 .gitreview text
 
+# Unity text type files:
+*.stamp text
+*.info text
+
 
 
 ## Declare files that will always have CRLF line endings on checkout.
@@ -276,3 +280,7 @@ cacerts binary
 
 # Binary .bin files:
 *.bin binary
+
+# Unity binary type files:
+*.asset binary
+*.bakert binary
