@@ -273,3 +273,6 @@ cacerts binary
 *.frm binary
 *.myd binary
 *.myi binary
+
+# Binary .bin files:
+*.bin binary
