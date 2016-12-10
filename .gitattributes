@@ -286,3 +286,4 @@ cacerts binary
 *.unity binary
 *.asset binary
 *.bakert binary
+*.mat binary
