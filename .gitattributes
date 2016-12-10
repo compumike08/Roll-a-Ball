@@ -133,6 +133,7 @@ Procfile text
 # Unity text type files:
 *.stamp text
 *.info text
+*.meta text
 
 
 
@@ -282,5 +283,6 @@ cacerts binary
 *.bin binary
 
 # Unity binary type files:
+*.unity binary
 *.asset binary
 *.bakert binary
