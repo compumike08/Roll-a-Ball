@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	// Update is called before rendering a frame
+	void Update ()
+	{
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	// FixedUpdate is called just before performing any physics calculations
+	void FixedUpdate ()
+	{
 		
 	}
 }
