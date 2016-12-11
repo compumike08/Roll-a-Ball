@@ -14,12 +14,6 @@ public class PlayerController : MonoBehaviour {
 		rb = GetComponent<Rigidbody> ();
 	}
 
-	// Update is called before rendering a frame
-//	void Update ()
-//	{
-//		
-//	}
-
 	// FixedUpdate is called just before performing any physics calculations
 	void FixedUpdate ()
 	{
