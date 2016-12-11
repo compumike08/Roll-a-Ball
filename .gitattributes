@@ -134,6 +134,10 @@ Procfile text
 *.stamp text
 *.info text
 *.meta text
+*.unity text
+*.asset text
+*.mat text
+*.prefab text
 
 
 
@@ -283,8 +287,4 @@ cacerts binary
 *.bin binary
 
 # Unity binary type files:
-*.unity binary
-*.asset binary
 *.bakert binary
-*.mat binary
-*.prefab binary
