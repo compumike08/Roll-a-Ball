@@ -287,3 +287,4 @@ cacerts binary
 *.asset binary
 *.bakert binary
 *.mat binary
+*.prefab binary
