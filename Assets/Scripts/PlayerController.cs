@@ -7,11 +7,13 @@ public class PlayerController : MonoBehaviour {
 	public float speed;
 
 	private Rigidbody rb;
+	private int count;
 
 	// Start is called during the first frame that this script is accessed during the game
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody> ();
+		count = 0;
 	}
 
 	// FixedUpdate is called just before performing any physics calculations
@@ -29,6 +31,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		if (other.gameObject.CompareTag ("Pick Up")) {
 			other.gameObject.SetActive (false);
+			count++;
 		}
 	}
 }
