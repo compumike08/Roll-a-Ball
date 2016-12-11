@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
 	public float speed;
+	public Text countText;
 
 	private Rigidbody rb;
 	private int count;
@@ -14,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		rb = GetComponent<Rigidbody> ();
 		count = 0;
+		SetCountText ();
 	}
 
 	// FixedUpdate is called just before performing any physics calculations
@@ -32,6 +35,12 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Pick Up")) {
 			other.gameObject.SetActive (false);
 			count++;
+			SetCountText ();
 		}
+	}
+
+	void SetCountText()
+	{
+		countText.text = "Count: " + count.ToString ();
 	}
 }
