@@ -138,7 +138,6 @@ Procfile text
 *.asset text
 *.mat text
 *.prefab text
-*.userprefs text
 
 
 
